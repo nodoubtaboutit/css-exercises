@@ -9,19 +9,35 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
+  /* I'll give you this one for free */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .modal {
+  display:flex;
+  justify-content: space-around;
+  padding:15px;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 800;
+  font-size: 18px;
 
+}
+.text{
+  flex-wrap: wrap;
+  width: 420px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -34,6 +50,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 
 .close-button {
   background: #eee;
@@ -51,6 +68,7 @@ body {
 }
 
 button {
+  
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
